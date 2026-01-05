@@ -394,6 +394,29 @@ ul {
     margin-top: 0.5rem;
 }
 
+/* Empty Cart Message */
+.empty-cart-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    color: var(--gray);
+    text-align: center;
+}
+
+.empty-cart-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+.empty-cart-message p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--gray);
+}
+
 /* Booking Section */
 .booking-section {
     background: var(--white);
@@ -467,6 +490,15 @@ ul {
     margin-top: 1rem;
     text-align: center;
     font-size: 0.9rem;
+}
+
+.error-message {
+    color: #dc2626;
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 /* ==========================================
